@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="botonDeAccion">
+        <item name="android:padding">30dp</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:width">220dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="titulos_style">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/montserratregular</item>
+
+
+
+
+    </style>
+
+
+    <style name="titulos_categorias_style">
+        <item name="android:gravity">left </item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>

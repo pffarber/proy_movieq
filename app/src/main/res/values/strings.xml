@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieQ</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_watchlist">Watchlist</string>
+
+    <string-array name="stringArrayCategorias">
+        <item>Proximos Estrenos</item>
+        <item>Populares</item>
+        <item>Cartelera</item>
+        <item>Ranking</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

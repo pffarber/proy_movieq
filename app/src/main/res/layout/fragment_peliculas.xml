@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.view.PeliculasFragment"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        style="@style/titulos_categorias_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peliculas Populares"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/blanco"
+        android:id="@+id/nombreCategoria"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler_id"
+        android:layout_height="match_parent" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="invisible"
+        android:layout_alignBottom="@id/recycler_id"
+        android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+</LinearLayout>
